@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ehsannavazi100-sys.github.io/site-farsi/sitemap.xml
