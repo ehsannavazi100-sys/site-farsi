@@ -3,160 +3,771 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <title>جوشکار آهنگر سیار تهران | جوشکاری در محل</title>
-<meta name="description" content="جوشکار آهنگر سیار تهران و کرج. جوشکاری در محل، ساخت و تعمیر درب آهنی، نرده، حفاظ دیوار، والپست و سازه‌های فلزی. تماس مستقیم با جوشکار سیار.">
+
+<meta name="description" content="جوشکار آهنگر سیار تهران؛ انجام جوشکاری و آهنگری در محل، ساخت و تعمیر درب آهنی، نرده، حفاظ دیوار، والپست و سازه‌های فلزی در تهران و حومه، کرج و ری.">
+
 <meta name="robots" content="index,follow">
-<meta name="theme-color" content="#080a0d">
+<meta name="theme-color" content="#0b0d10">
+
 <link rel="canonical" href="https://ehsannavazi100-sys.github.io/site-farsi/">
 
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fa_IR">
+<meta property="og:title" content="جوشکار آهنگر سیار تهران">
+<meta property="og:description" content="جوشکاری، آهنگری، ساخت و تعمیر سازه‌های فلزی در محل در تهران و حومه.">
+<meta property="og:url" content="https://ehsannavazi100-sys.github.io/site-farsi/">
+
 <style>
-*{box-sizing:border-box}
-html{scroll-behavior:smooth;scroll-padding-top:80px}
-body{margin:0;background:#080a0d;color:#f5f5f5;font-family:Tahoma,Arial,sans-serif;line-height:2}
-a{text-decoration:none}
-header{background:#11151a;border-bottom:2px solid #f59e0b;padding:12px;position:sticky;top:0;z-index:5}
-nav{max-width:1000px;margin:auto;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
-.logo{font-size:19px;color:#f59e0b;font-weight:bold}
-nav a{color:#fff;font-size:14px}
-nav a:hover{color:#f59e0b}
-.container{width:92%;max-width:1000px;margin:auto}
-.hero{text-align:center;padding:42px 0 48px;background:linear-gradient(140deg,#29200e,#080a0d 75%)}
-h1{font-size:clamp(25px,5vw,39px);line-height:1.8;color:#ffc45e;margin:10px 0}
-h2{text-align:center;color:#f59e0b;font-size:25px}
-h3{color:#ffc45e;font-size:18px;margin-top:8px}
-p{overflow-wrap:anywhere}
-.buttons{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin:22px 0}
-.btn{display:inline-block;padding:9px 18px;border-radius:8px;font-weight:bold}
-.call{background:#f59e0b;color:#111}
-.whatsapp{background:#16834a;color:white}
-section{padding:30px 0;border-top:1px solid #252a30}
-.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}
-.card{background:#141920;border:1px solid #303640;border-radius:10px;padding:15px;min-width:0}
-.card p{font-size:14px;color:#ddd}
-.card img{display:block;width:100%;height:210px;object-fit:cover;border-radius:7px}
-.box{background:#141920;border:1px solid #303640;border-radius:10px;padding:20px}
-.phone{direction:ltr;display:inline-block;color:#ffc45e;font-size:24px;font-weight:bold}
-footer{text-align:center;color:#bbb;padding:20px 12px 75px;background:#050608}
-.mobilebar{display:none}
-@media(max-width:700px){
-nav{justify-content:center}
-nav .links{display:flex;flex-wrap:wrap;justify-content:center;gap:12px}
-.grid{grid-template-columns:repeat(2,minmax(0,1fr))}
-.mobilebar{display:flex;position:fixed;bottom:0;left:0;right:0;z-index:10;background:#080a0d;padding:8px;gap:8px;border-top:1px solid #333}
-.mobilebar a{flex:1;text-align:center;padding:7px;border-radius:7px;font-weight:bold}
+:root{
+  --bg:#090b0e;
+  --surface:#14181e;
+  --surface2:#1b2027;
+  --silver:#c6cbd2;
+  --silver-light:#f0f2f5;
+  --text:#f2f3f5;
+  --muted:#c0c5cc;
+  --border:#343b45;
+  --green:#16834a;
 }
-@media(max-width:420px){
-.grid{grid-template-columns:1fr}
-.card img{height:230px}
+
+*{
+  box-sizing:border-box;
+}
+
+html{
+  scroll-behavior:smooth;
+  scroll-padding-top:90px;
+}
+
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--text);
+  font-family:Tahoma,Arial,sans-serif;
+  line-height:2;
+}
+
+a{
+  text-decoration:none;
+}
+
+a:focus-visible{
+  outline:2px solid var(--silver-light);
+  outline-offset:4px;
+}
+
+img{
+  max-width:100%;
+}
+
+.container{
+  width:92%;
+  max-width:1050px;
+  margin:0 auto;
+}
+
+header{
+  position:sticky;
+  top:0;
+  z-index:20;
+  background:rgba(12,15,19,.97);
+  border-bottom:1px solid var(--border);
+  box-shadow:0 4px 18px rgba(0,0,0,.2);
+}
+
+nav{
+  max-width:1050px;
+  width:94%;
+  margin:auto;
+  min-height:65px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:12px;
+  flex-wrap:wrap;
+  padding:8px 0;
+}
+
+.logo{
+  color:var(--silver-light);
+  font-size:18px;
+  font-weight:bold;
+}
+
+.links{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:16px;
+}
+
+.links a{
+  color:var(--text);
+  font-size:14px;
+  transition:color .2s;
+}
+
+.links a:hover{
+  color:var(--silver);
+}
+
+.hero{
+  padding:44px 0 48px;
+  text-align:center;
+  background:
+    radial-gradient(ellipse at top,#303640 0%,#171b21 40%,#090b0e 80%);
+  border-bottom:1px solid var(--border);
+}
+
+.eyebrow{
+  color:var(--silver);
+  font-size:15px;
+  margin:0 0 8px;
+}
+
+h1{
+  color:var(--silver-light);
+  font-size:clamp(26px,5vw,40px);
+  line-height:1.8;
+  margin:8px 0 12px;
+}
+
+.hero p{
+  max-width:760px;
+  margin:10px auto;
+  color:var(--muted);
+}
+
+.buttons{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:12px;
+  margin:22px 0 0;
+}
+
+.btn{
+  display:inline-block;
+  min-width:145px;
+  padding:9px 18px;
+  border-radius:8px;
+  font-weight:bold;
+  text-align:center;
+  transition:transform .2s,background .2s;
+}
+
+.btn:hover{
+  transform:translateY(-2px);
+}
+
+.call{
+  background:var(--silver);
+  color:#101216;
+}
+
+.call:hover{
+  background:var(--silver-light);
+}
+
+.whatsapp{
+  background:var(--green);
+  color:#fff;
+}
+
+.whatsapp:hover{
+  background:#116d3d;
+}
+
+section{
+  padding:34px 0;
+  border-bottom:1px solid #252a31;
+}
+
+h2{
+  color:var(--silver-light);
+  text-align:center;
+  font-size:clamp(22px,4vw,28px);
+  line-height:1.8;
+  margin:0 0 18px;
+}
+
+h3{
+  color:var(--silver);
+  font-size:17px;
+  line-height:1.9;
+  margin:10px 0 6px;
+}
+
+.section-intro{
+  max-width:780px;
+  margin:0 auto 22px;
+  color:var(--muted);
+  text-align:center;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:16px;
+}
+
+.card{
+  min-width:0;
+  padding:15px;
+  border:1px solid var(--border);
+  border-radius:12px;
+  background:linear-gradient(145deg,var(--surface2),var(--surface));
+  overflow:hidden;
+}
+
+.card p{
+  color:var(--muted);
+  font-size:14px;
+  margin:5px 0 0;
+  overflow-wrap:anywhere;
+}
+
+.portfolio-card img{
+  display:block;
+  width:100%;
+  height:220px;
+  object-fit:cover;
+  background:#222831;
+  border:1px solid #343b45;
+  border-radius:8px;
+}
+
+.portfolio-card h3{
+  margin-bottom:0;
+}
+
+.box{
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-radius:12px;
+  padding:20px;
+}
+
+.box p{
+  color:var(--muted);
+  margin:8px 0;
+}
+
+.box strong{
+  color:var(--silver-light);
+}
+
+.contact-box{
+  text-align:center;
+}
+
+.phone{
+  direction:ltr;
+  display:inline-block;
+  color:var(--silver-light);
+  font-size:clamp(23px,5vw,30px);
+  font-weight:bold;
+  letter-spacing:1px;
+}
+
+.email{
+  color:var(--silver-light);
+  overflow-wrap:anywhere;
+}
+
+.email:hover{
+  text-decoration:underline;
+}
+
+footer{
+  background:#060709;
+  text-align:center;
+  color:var(--muted);
+  padding:22px 15px 85px;
+  font-size:13px;
+}
+
+footer p{
+  margin:5px 0;
+}
+
+.mobilebar{
+  display:none;
+}
+
+@media(max-width:760px){
+  nav{
+    justify-content:center;
+    padding:10px 0;
+  }
+
+  .links{
+    gap:10px 15px;
+  }
+
+  .grid{
+    grid-template-columns:repeat(2,minmax(0,1fr));
+  }
+
+  .hero{
+    padding:32px 0 38px;
+  }
+
+  .mobilebar{
+    display:flex;
+    position:fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    z-index:30;
+    gap:8px;
+    padding:9px;
+    padding-bottom:calc(9px + env(safe-area-inset-bottom));
+    background:rgba(9,11,14,.98);
+    border-top:1px solid var(--border);
+  }
+
+  .mobilebar a{
+    flex:1;
+    min-width:0;
+    padding:8px 5px;
+    border-radius:8px;
+    text-align:center;
+    font-weight:bold;
+    font-size:14px;
+  }
+}
+
+@media(max-width:440px){
+  .container{
+    width:91%;
+  }
+
+  .grid{
+    grid-template-columns:1fr;
+  }
+
+  .portfolio-card img{
+    height:235px;
+  }
+
+  .card{
+    padding:13px;
+  }
+
+  .links{
+    gap:8px 12px;
+  }
+
+  .links a{
+    font-size:13px;
+  }
+}
+
+@media(prefers-reduced-motion:reduce){
+  html{
+    scroll-behavior:auto;
+  }
+
+  *,
+  *::before,
+  *::after{
+    transition:none !important;
+  }
 }
 </style>
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@graph":[
+    {
+      "@type":"WebSite",
+      "@id":"https://ehsannavazi100-sys.github.io/site-farsi/#website",
+      "url":"https://ehsannavazi100-sys.github.io/site-farsi/",
+      "name":"جوشکار آهنگر سیار تهران",
+      "inLanguage":"fa-IR"
+    },
+    {
+      "@type":"LocalBusiness",
+      "@id":"https://ehsannavazi100-sys.github.io/site-farsi/#business",
+      "name":"جوشکار آهنگر سیار تهران",
+      "url":"https://ehsannavazi100-sys.github.io/site-farsi/",
+      "description":"خدمات جوشکاری و آهنگری سیار، ساخت و تعمیر درب و نرده، حفاظ دیوار و سازه‌های فلزی در تهران و حومه، کرج و ری.",
+      "telephone":"+989910824221",
+      "email":"Zhihadnavazi@gmail.com",
+      "priceRange":"تماس برای استعلام قیمت",
+      "address":{
+        "@type":"PostalAddress",
+        "addressLocality":"تهران",
+        "addressRegion":"استان تهران",
+        "addressCountry":"IR"
+      },
+      "areaServed":[
+        {
+          "@type":"City",
+          "name":"تهران"
+        },
+        {
+          "@type":"AdministrativeArea",
+          "name":"حومه تهران"
+        },
+        {
+          "@type":"City",
+          "name":"کرج"
+        },
+        {
+          "@type":"City",
+          "name":"ری"
+        }
+      ],
+      "contactPoint":{
+        "@type":"ContactPoint",
+        "telephone":"+989910824221",
+        "contactType":"customer service",
+        "availableLanguage":"Persian"
+      }
+    }
+  ]
+}
+</script>
 </head>
+
 <body>
 
 <header>
-<nav>
-<div class="logo">جوشکار آهنگر سیار</div>
-<div class="links">
-<a href="#services">خدمات</a>
-<a href="#portfolio">نمونه‌کارها</a>
-<a href="#areas">مناطق کاری</a>
-<a href="#contact">تماس</a>
-</div>
-</nav>
+  <nav aria-label="منوی اصلی">
+    <a class="logo" href="#home">جوشکار آهنگر سیار</a>
+
+    <div class="links">
+      <a href="#home">معرفی</a>
+      <a href="#portfolio">نمونه‌کارها</a>
+      <a href="#services">خدمات</a>
+      <a href="#about">درباره کار</a>
+      <a href="#areas">مناطق کاری</a>
+      <a href="#contact">تماس</a>
+    </div>
+  </nav>
 </header>
 
 <main>
-<div class="hero">
-<div class="container">
-<p>جوشکاری و آهنگری در محل مشتری</p>
-<h1>جوشکار آهنگر سیار تهران</h1>
-<p>ساخت، نصب و تعمیر انواع سازه‌های فلزی در تهران، کرج، ری و حومه.</p>
-<p>برای هماهنگی کار و دریافت قیمت، مستقیم تماس بگیرید.</p>
-<div class="buttons">
-<a class="btn call" href="tel:09910824221">تماس با جوشکار</a>
-<a class="btn whatsapp" href="https://wa.me/989910824221">پیام در واتساپ</a>
-</div>
-</div>
-</div>
 
-<section id="services">
-<div class="container">
-<h2>خدمات جوشکاری و آهنگری سیار</h2>
-<div class="grid">
-<div class="card"><h3>جوشکاری سیار در محل</h3><p>جوشکاری و تعمیرات فلزی در منزل، ساختمان و محل پروژه.</p></div>
-<div class="card"><h3>درب و پنجره آهنی</h3><p>ساخت، نصب و تعمیر انواع درب و پنجره فلزی.</p></div>
-<div class="card"><h3>نرده و حفاظ دیوار</h3><p>ساخت حفاظ دیوار، حفاظ پنجره و نرده راه‌پله.</p></div>
-<div class="card"><h3>والپست و پروفیل‌کشی</h3><p>اجرای کارهای فلزی ساختمانی و نصب والپست.</p></div>
-<div class="card"><h3>فلاشینگ و بام</h3><p>ساخت و نصب فلاشینگ و اتصالات فلزی ساختمان.</p></div>
-<div class="card"><h3>تعمیرات فلزی</h3><p>تعمیر چهارچوب، اتصالات و سازه‌های فلزی.</p></div>
-</div>
-</div>
-</section>
+  <!-- معرفی اصلی -->
+  <section class="hero" id="home" style="border-top:0">
+    <div class="container">
+      <p class="eyebrow">جوشکاری و آهنگری در محل مشتری</p>
 
-<section id="portfolio">
-<div class="container">
-<h2>نمونه‌کارهای جوشکاری و آهنگری</h2>
-<p>چند نمونه از کارهای فلزی و آهنگری؛ برای هماهنگی اجرای پروژه تماس بگیرید.</p>
-<div class="grid">
-<div class="card"><img src="namonekar-01.jpg" alt="نمونه کار اول جوشکاری سیار"><h3>نمونه‌کار جوشکاری</h3></div>
-<div class="card"><img src="namonekar-02.jpg" alt="نمونه کار دوم سازه فلزی"><h3>سازه فلزی</h3></div>
-<div class="card"><img src="namonekar-03.jpg" alt="نمونه کار سوم درب و نرده"><h3>درب و نرده فلزی</h3></div>
-<div class="card"><img src="namonekar-04.jpg" alt="نمونه کار چهارم حفاظ"><h3>حفاظ فلزی</h3></div>
-<div class="card"><img src="namonekar-05.jpg" alt="نمونه کار پنجم آهنگری"><h3>آهنگری و ساخت فلز</h3></div>
-<div class="card"><img src="namonekar-06.jpg" alt="نمونه کار ششم سازه فلزی"><h3>ساخت سفارشی</h3></div>
-<div class="card"><img src="namonekar-07.jpg" alt="نمونه کار هفتم فلزکاری"><h3>کارهای فلزی</h3></div>
-<div class="card"><img src="namonekar-08.jpg" alt="نمونه کار هشتم جوشکاری"><h3>جوشکاری در محل</h3></div>
-<div class="card"><img src="namonekar-09.jpg" alt="نمونه کار نهم فلزکاری"><h3>ساخت و نصب</h3></div>
-<div class="card"><img src="namonekar-10.jpg" alt="نمونه کار دهم آهنگری"><h3>نمونه‌کار آهنگری</h3></div>
-</div>
-</div>
-</section>
+      <h1>جوشکار آهنگر سیار تهران</h1>
 
-<section id="about">
-<div class="container">
-<h2>جوشکار سیار در محل</h2>
-<div class="box">
-<p>برای جوشکاری، آهنگری، ساخت حفاظ و تعمیر سازه‌های فلزی لازم نیست به کارگاه مراجعه کنید.</p>
-<p>نوع کار و محل پروژه را توضیح دهید. در صورت امکان عکس کار را از طریق واتساپ بفرستید تا هماهنگی دقیق‌تری انجام شود.</p>
-</div>
-</div>
-</section>
+      <p>
+        ساخت، نصب و تعمیر انواع درب، نرده، حفاظ و سازه‌های فلزی
+        با هماهنگی قبلی در تهران و حومه، کرج و ری.
+      </p>
 
-<section id="areas">
-<div class="container">
-<h2>مناطق ارائه خدمات</h2>
-<div class="box">
-<p><strong>تهران:</strong> اولویت اصلی خدمات در تهران و مناطق اطراف است.</p>
-<p><strong>کرج و ری:</strong> انجام کار با هماهنگی قبلی.</p>
-<p><strong>سایر مناطق:</strong> برای پروژه‌های دیگر مناطق نیز تماس بگیرید تا امکان انجام کار بررسی شود.</p>
-</div>
-</div>
-</section>
+      <p>
+        برای بررسی کار و هماهنگی اجرا تماس بگیرید.
+        در صورت امکان، عکس محل یا قطعه موردنظر را در واتساپ بفرستید.
+      </p>
 
-<section id="contact">
-<div class="container">
-<h2>تماس با جوشکار آهنگر سیار</h2>
-<div class="box" style="text-align:center">
-<p>برای هماهنگی جوشکاری، آهنگری، ساخت حفاظ و تعمیرات فلزی تماس بگیرید.</p>
-<p><a class="phone" href="tel:09910824221">09910824221</a></p>
-<div class="buttons">
-<a class="btn call" href="tel:09910824221">تماس تلفنی</a>
-<a class="btn whatsapp" href="https://wa.me/989910824221">ارسال پیام واتساپ</a>
-</div>
-<p>ایمیل: <a href="mailto:Zhihadnavazi@gmail.com">Zhihadnavazi@gmail.com</a></p>
-</div>
-</div>
-</section>
+      <div class="buttons">
+        <a class="btn call" href="tel:09910824221">
+          تماس با جوشکار
+        </a>
+
+        <a class="btn whatsapp"
+           href="https://wa.me/989910824221"
+           target="_blank"
+           rel="noopener noreferrer">
+          پیام در واتساپ
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- نمونه‌کارها؛ بلافاصله پس از معرفی -->
+  <section id="portfolio">
+    <div class="container">
+      <h2>نمونه‌کارهای فلزی و آهنگری</h2>
+
+      <p class="section-intro">
+        نمونه‌هایی از کارهای جوشکاری، ساخت و نصب قطعات فلزی.
+        برای اطلاع از امکان اجرای پروژه مشابه، تماس بگیرید.
+      </p>
+
+      <div class="grid">
+
+        <article class="card portfolio-card">
+          <img src="namonekar-01.jpg"
+               alt="نمونه کار اول جوشکاری سیار"
+               loading="lazy"
+               decoding="async">
+          <h3>جوشکاری سیار</h3>
+        </article>
+
+        <article class="card portfolio-card">
+          <img src="namonekar-02.jpg"
+               alt="نمونه کار ساخت سازه فلزی"
+               loading="lazy"
+               decoding="async">
+          <h3>سازه فلزی</h3>
+        </article>
+
+        <article class="card portfolio-card">
+          <img src="namonekar-03.jpg"
+               alt="نمونه کار درب و نرده فلزی"
+               loading="lazy"
+               decoding="async">
+          <h3>درب و نرده فلزی</h3>
+        </article>
+
+        <article class="card portfolio-card">
+          <img src="namonekar-04.jpg"
+               alt="نمونه کار حفاظ فلزی دیوار"
+               loading="lazy"
+               decoding="async">
+          <h3>حفاظ فلزی</h3>
+        </article>
+
+        <article class="card portfolio-card">
+          <img src="namonekar-05.jpg"
+               alt="نمونه کار آهنگری و ساخت قطعات فلزی"
+               loading="lazy"
+               decoding="async">
+          <h3>آهنگری و ساخت فلز</h3>
+        </article>
+
+        <article class="card portfolio-card">
+          <img src="namonekar-06.jpg"
+               alt="نمونه کار ساخت سفارشی فلزی"
+               loading="lazy"
+               decoding="async">
+          <h3>ساخت سفارشی</h3>
+        </article>
+
+        <article class="card portfolio-card">
+          <img src="namonekar-07.jpg"
+               alt="نمونه کار فلزکاری"
+               loading="lazy"
+               decoding="async">
+          <h3>کارهای فلزی</h3>
+        </article>
+
+        <article class="card portfolio-card">
+          <img src="namonekar-08.jpg"
+               alt="نمونه کار جوشکاری در محل"
+               loading="lazy"
+               decoding="async">
+          <h3>جوشکاری در محل</h3>
+        </article>
+
+        <article class="card portfolio-card">
+          <img src="namonekar-09.jpg"
+               alt="نمونه کار ساخت و نصب فلزی"
+               loading="lazy"
+               decoding="async">
+          <h3>ساخت و نصب</h3>
+        </article>
+
+        <article class="card portfolio-card">
+          <img src="namonekar-10.jpg"
+               alt="نمونه کار آهنگری و سازه فلزی"
+               loading="lazy"
+               decoding="async">
+          <h3>نمونه‌کار آهنگری</h3>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- خدمات -->
+  <section id="services">
+    <div class="container">
+      <h2>خدمات جوشکاری و آهنگری</h2>
+
+      <p class="section-intro">
+        خدمات ساخت، نصب و تعمیر قطعات و سازه‌های فلزی،
+        متناسب با نوع پروژه و پس از هماهنگی.
+      </p>
+
+      <div class="grid">
+
+        <article class="card">
+          <h3>جوشکاری سیار در محل</h3>
+          <p>
+            انجام جوشکاری و تعمیر قطعات فلزی در منزل،
+            ساختمان و محل پروژه، با هماهنگی قبلی.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>درب و پنجره آهنی</h3>
+          <p>
+            ساخت، نصب و تعمیر درب و پنجره فلزی
+            متناسب با ابعاد و نیاز محل.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>نرده و حفاظ دیوار</h3>
+          <p>
+            ساخت و نصب نرده راه‌پله، حفاظ دیوار
+            و حفاظ فلزی پنجره.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>والپست و پروفیل‌کشی</h3>
+          <p>
+            اجرای کارهای فلزی ساختمانی،
+            نصب والپست و اتصالات مربوط به پروژه.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>فلاشینگ و کارهای فلزی بام</h3>
+          <p>
+            ساخت و نصب فلاشینگ و اتصالات فلزی
+            متناسب با شرایط ساختمان.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>تعمیر سازه‌های فلزی</h3>
+          <p>
+            بررسی و تعمیر چهارچوب، اتصالات،
+            قطعات و سازه‌های فلزی آسیب‌دیده.
+          </p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- درباره کار -->
+  <section id="about">
+    <div class="container">
+      <h2>جوشکاری و آهنگری در محل</h2>
+
+      <div class="box">
+        <p>
+          برای بسیاری از کارهای جوشکاری و آهنگری،
+          امکان هماهنگی برای انجام کار در محل وجود دارد
+          و نیازی نیست ابتدا به کارگاه مراجعه کنید.
+        </p>
+
+        <p>
+          نوع کار، ابعاد تقریبی و محل پروژه را توضیح دهید.
+          اگر عکس یا فیلمی از کار دارید، آن را از طریق واتساپ
+          ارسال کنید تا امکان اجرا و هزینه تقریبی بررسی شود.
+        </p>
+
+        <p>
+          زمان حضور، هزینه و جزئیات اجرا پس از بررسی کار
+          و توافق با مشتری مشخص می‌شود.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- مناطق کاری -->
+  <section id="areas">
+    <div class="container">
+      <h2>مناطق ارائه خدمات</h2>
+
+      <div class="box">
+        <p>
+          <strong>تهران و حومه:</strong>
+          اولویت اصلی هماهنگی و انجام پروژه‌ها.
+        </p>
+
+        <p>
+          <strong>کرج:</strong>
+          پذیرش پروژه با هماهنگی قبلی.
+        </p>
+
+        <p>
+          <strong>ری:</strong>
+          امکان هماهنگی برای اجرای کار.
+        </p>
+
+        <p>
+          <strong>سایر مناطق:</strong>
+          برای پروژه‌های خارج از این محدوده نیز تماس بگیرید
+          تا امکان انجام کار بررسی شود.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- تماس -->
+  <section id="contact">
+    <div class="container">
+      <h2>تماس با جوشکار آهنگر سیار</h2>
+
+      <div class="box contact-box">
+        <p>
+          برای هماهنگی جوشکاری، آهنگری، ساخت حفاظ
+          و تعمیرات فلزی تماس بگیرید.
+        </p>
+
+        <p>
+          <a class="phone" href="tel:09910824221">
+            09910824221
+          </a>
+        </p>
+
+        <div class="buttons">
+          <a class="btn call" href="tel:09910824221">
+            تماس تلفنی
+          </a>
+
+          <a class="btn whatsapp"
+             href="https://wa.me/989910824221"
+             target="_blank"
+             rel="noopener noreferrer">
+            ارسال پیام واتساپ
+          </a>
+        </div>
+
+        <p>
+          ایمیل:
+          <a class="email"
+             href="mailto:Zhihadnavazi@gmail.com">
+            Zhihadnavazi@gmail.com
+          </a>
+        </p>
+      </div>
+    </div>
+  </section>
+
 </main>
 
 <footer>
-<p>جوشکار آهنگر سیار تهران | جوشکاری در محل تهران و کرج</p>
-<p>تماس: 09910824221</p>
+  <p>جوشکار آهنگر سیار تهران و حومه</p>
+  <p>جوشکاری، آهنگری، ساخت و تعمیر سازه‌های فلزی</p>
+  <p>
+    <a class="email" href="tel:09910824221">
+      تماس: 09910824221
+    </a>
+  </p>
 </footer>
 
+<!-- نوار تماس در موبایل -->
 <div class="mobilebar">
-<a class="call" href="tel:09910824221">تماس فوری</a>
-<a class="whatsapp" href="https://wa.me/989910824221">واتساپ</a>
+  <a class="btn call" href="tel:09910824221">
+    تماس فوری
+  </a>
+
+  <a class="btn whatsapp"
+     href="https://wa.me/989910824221"
+     target="_blank"
+     rel="noopener noreferrer">
+    واتساپ
+  </a>
 </div>
 
 </body>
